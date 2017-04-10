@@ -1,0 +1,53 @@
+body{
+	font-family: Pacifico;
+	
+}
+.health-wrapper{
+	display: flex;
+}
+.outer-healthbar{
+	display: flex;
+	height: 50px;
+	width: 50%;
+	background: grey;
+	margin: 10px;
+}
+.healthbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 200px;
+	background: green;
+	text-align: center;
+	transition: all 2s;
+}
+.healthbar span{
+	color: #fff;
+	font: 24px/1.5 Pacifico;
+	font-weight: bold;
+}
+.healthbar span:nth-child(2){
+	color: #dfe412;
+}
+.game-controls, .game-log{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.game-controls button{
+	margin: 10px;
+	padding: 10px;
+	background: #00BCD4;
+}
+.game-log{
+	margin-top: 20px;
+}
+.player-turn{
+	background: yellow;
+}
+.monster-turn{
+	background: blue;
+}
+
+

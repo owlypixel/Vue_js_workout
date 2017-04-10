@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<div id="app">
+		{{message}}
+		<span v-bind:title="title">
+			Hover your mouse over me
+		</span>
+		<div v-if="show">Now you see me</div>
+		<div v-else>Now you see me!!</div>
+		<template v-show='show'>
+			<h1 v-show='show'>This is a heading!</h1>
+			<p>I'm inside of the template!</p>
+		</template>
+		<button @click="show = !show">Switch</button>
+		<div>
+			<ul>
+				<li v-for="todo in todos">
+					{{ todo.text }}
+				</li>
+			</ul>
+		</div>
+		<button v-on:click="reverseMessage">Reverse</button>
+		<br>
+		<p>{{ paragraph }}</p>
+		<input v-model="paragraph" type="text">
+		<ol>
+		  <!-- Create an instance of the todo-item component -->
+		  <todo-item v-for="todo in todos" v-bind:todo="todo"></todo-item>
+		</ol>
+		<button v-on:click="consoleHello">change</button>
+		<hr>
+		<ul>
+			<li v-for="(ingredient, i) in ingredients">{{ ingredient }} ({{ i }})</li>
+		</ul>
+		<hr>
+		<template v-for="(ingredient, index) in ingredients">
+			<h1>{{ ingredient }}</h1>
+			<p>{{ index }}</p>
+		</template>
+		<hr>
+		<ul>
+			<li v-for="person in persons">
+				<span v-for="(value, key, index) in person" >{{value}} ({{key}}) ({{index}})</span>
+			</li>
+		</ul>
+		<hr>
+		<ul>
+			<li v-for="num in 10">{{ num }}</li>
+		</ul>
+	</div>
+	
+
+	<script src="vue.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

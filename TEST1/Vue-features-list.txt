@@ -1,0 +1,11 @@
+What I can do with VUE:
+
+- Show/Hide single elements on click (v-if)
+- Show/Hide templates(groups of elements) on click
+- Show/Hide elements on click(display="none")(v-show)
+------------------
+- Output lists (v-for)
+- Output lists with index (current_item, index) (v-for)
+- Output lists using HTML5 template tag (v-for)
+- Output arrays holding objects (nested v-for)
+- Output a range of integers (v-for)

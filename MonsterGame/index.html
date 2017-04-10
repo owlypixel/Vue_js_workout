@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="http://fonts.googleapis.com/css?family=Pacifico:300,400,600" rel="stylesheet">
+</head>
+<body>
+	<div id="app">
+	<section class="health-wrapper">
+		<div class="outer-healthbar">
+			<div class="healthbar" :style="{width: playerHealth + '%'}">
+				<span>YOU</span>
+				<span>{{ playerHealth }}</span>
+			</div>
+		</div>
+		<div class="outer-healthbar">
+			<div class="healthbar" :style="{width: monsterHealth + '%'}">
+				<span>Monster</span>
+				<span>{{ monsterHealth }}</span>
+			</div>
+		</div>
+	</section>
+	<section class="game-controls" v-if="!gameIsRunning">
+		<button class="primary" @click="startGame">Start Game</button>
+	</section>
+	<section class="game-controls" v-else>
+		<button id="attack" @click="attack">Attack</button>
+		<button id="special-attack" @click="specialAttack">Special attack</button>
+		<button id="heal" @click="heal">Heal</button>
+		<button id="give-up" @click="giveUp">Give up</button>
+	</section>
+	<section class='game-log' v-if="turns.length > 0">
+		<ul>
+			<li v-for="turn in turns" :class="{'player-turn': turn.isPlayer, 'monster-turn': !turn.isPlayer}">{{ turn.text }}</li>
+		</ul>
+	</section>
+	</div>
+	
+
+	<script src="vue.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
