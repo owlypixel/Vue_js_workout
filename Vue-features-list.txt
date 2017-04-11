@@ -9,3 +9,9 @@ What I can do with VUE:
 - Output lists using HTML5 template tag (v-for)
 - Output arrays holding objects (nested v-for)
 - Output a range of integers (v-for)
+------------------
+- Create multiple app instances
+------------------
+- Interact with HTML elements in JS ($refs)
+-------------------
+- Create reusable components with their own templates (Vue.component())

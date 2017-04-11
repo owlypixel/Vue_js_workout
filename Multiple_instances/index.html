@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app1">
+		<h1>{{ title }}</h1>
+		<button @click="show" ref="myButton">Show paragraph</button>
+		<p v-if="showParagraph">This paragraph is not always visible!</p>
+	</div>
+	<div id="app2">
+		<h1>{{ title }}</h1>
+		<button @click="onChange">Change title in 1st instance</button>
+	</div>
+	
+	
+
+	<script src="vue.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
