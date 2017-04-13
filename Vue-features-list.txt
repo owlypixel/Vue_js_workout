@@ -15,3 +15,5 @@ What I can do with VUE:
 - Interact with HTML elements in JS ($refs)
 -------------------
 - Create reusable components with their own templates (Vue.component())
+- Register components globally or locally
+- Pass data from the parent to the child components (props)
