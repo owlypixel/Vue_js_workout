@@ -17,3 +17,8 @@ What I can do with VUE:
 - Create reusable components with their own templates (Vue.component())
 - Register components globally or locally
 - Pass data from the parent to the child components (props)
+--------------------
+- Use slots to pass multiple elements to child component
+- Use named slots 
+--------------------
+- Load different content on page on click (dynamic components)
