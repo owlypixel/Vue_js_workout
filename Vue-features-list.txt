@@ -22,3 +22,4 @@ What I can do with VUE:
 - Use named slots 
 --------------------
 - Load different content on page on click (dynamic components)
+---------------------
