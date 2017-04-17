@@ -23,3 +23,5 @@ What I can do with VUE:
 --------------------
 - Load different content on page on click (dynamic components)
 ---------------------
+- bind form data to an object (v-model)
+- use modifiers on input (lazy, number, trim)
