@@ -31,3 +31,6 @@ What I can do with VUE:
 - pass arguments to custom directives
 - use modifiers on directives (for example, add delay)
 - register local directives with additional features like multimodifiers and complex data
+----------------------
+- create filters and chain them
+- [practical] filter list items in the entered value in input field (computed property)
