@@ -26,3 +26,7 @@ What I can do with VUE:
 - bind form data to an object (v-model)
 - use modifiers on input (lazy, number, trim)
 - use custom components as controls 
+---------------------
+- create custom directives to style elements
+- pass arguments to custom directives
+- use modifiers on directives (for example, add delay)
