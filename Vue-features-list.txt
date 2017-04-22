@@ -30,3 +30,4 @@ What I can do with VUE:
 - create custom directives to style elements
 - pass arguments to custom directives
 - use modifiers on directives (for example, add delay)
+- register local directives with additional features like multimodifiers and complex data
