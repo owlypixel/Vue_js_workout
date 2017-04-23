@@ -35,3 +35,5 @@ What I can do with VUE:
 - create filters and chain them
 - [practical] filter list items in the entered value in input field (computed property)
 - create reusable code snippets and put them into mixins to use in another places
+-----------------------
+- use transition and keyframe animation on elements 
