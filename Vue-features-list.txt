@@ -37,3 +37,9 @@ What I can do with VUE:
 - create reusable code snippets and put them into mixins to use in another places
 -----------------------
 - use transition and keyframe animation on elements 
+- animate initial attaching to the DOM (appear)
+- dynamically bind animation attributes (select switches animatin type)
+- setup animation mode (out-in, in-out)
+- use transition JS hooks to run custom JS code during the animation lifecycle
+- animate dynamic added components
+- animate groups of items (transition-group)
