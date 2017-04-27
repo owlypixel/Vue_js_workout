@@ -44,3 +44,4 @@ What I can do with VUE:
 - animate dynamic added components
 - animate groups of items (transition-group)
 ------------------------
+- send POST and GET requests to Firebase
