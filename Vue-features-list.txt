@@ -45,3 +45,4 @@ What I can do with VUE:
 - animate groups of items (transition-group)
 ------------------------
 - send POST and GET requests to Firebase
+- intercept request to modify it in any way I want
