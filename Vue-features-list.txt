@@ -46,3 +46,11 @@ What I can do with VUE:
 ------------------------
 - send POST and GET requests to Firebase
 - intercept request to modify it in any way I want
+- the concept of Resource (alternative to the raw HTTPS requests)
+- reuse alternative resources (flexibility)
+- use templating in URLs
+-----------------------
+- load different components on link clicks without page reload (vue-router)
+- trigger page change from JavaScript
+- use child nested routes
+- use dynamic elements in links
