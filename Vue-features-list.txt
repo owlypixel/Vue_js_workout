@@ -54,3 +54,6 @@ What I can do with VUE:
 - trigger page change from JavaScript
 - use child nested routes
 - use dynamic elements in links
+- use query parameters and named routes
+- check if user allowed to visit routes (guard)
+- lazily load routes
