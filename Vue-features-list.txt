@@ -57,3 +57,5 @@ What I can do with VUE:
 - use query parameters and named routes
 - check if user allowed to visit routes (guard)
 - lazily load routes
+------------------------
+- use Vuex for state management
