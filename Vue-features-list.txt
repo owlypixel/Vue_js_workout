@@ -59,3 +59,6 @@ What I can do with VUE:
 - lazily load routes
 ------------------------
 - use Vuex for state management
+- use central store that holds the state of the app
+- use mutations to change state
+- use actions to run async code
